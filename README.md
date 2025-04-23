@@ -32,3 +32,77 @@ This system uses:
 - Flask & Flask-CORS
 - React (Vite or Create React App)
 - ESP8266 module (NodeMCU recommended)
+
+---
+
+# 🐍 Backend Setup
+## 📁 Go to the backend directory:
+## 🐍 Backend Setup
+
+📁 Go to the backend directory:
+
+```bash
+cd backend
+````
+
+🛠️ Create a virtual environment (optional):
+
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+📦 Install dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+▶️ Run the backend:
+
+bash
+Copy
+Edit
+python app.py
+Backend will start on: http://localhost:5000
+
+⚛️ Frontend Setup
+📁 Go to the frontend directory:
+
+bash
+Copy
+Edit
+cd frontend
+📦 Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+▶️ Start the dev server:
+
+bash
+Copy
+Edit
+npm run dev
+Frontend runs on: http://localhost:5173
+
+📡 ESP8266 Firmware
+Program the ESP8266 with the Arduino sketch in firmware/esp8266_crowd_counter.ino
+
+Update Wi-Fi SSID, Password, and backend IP address in the code
+
+IR sensors should be connected to D1 (entry) and D2 (exit)
+
+📊 Sample Screenshot
+
+🧠 How Crowd Level is Calculated
+
+People Count	Crowd Level
+0–20	Low
+21–40	Medium
+41+	High
+You can customize this logic in app.py.
+
+✍️ Contributing
+Pull requests are welcome! If you’d like to add new features (e.g., forecast prediction, historical graph), feel free to fork and improve.
