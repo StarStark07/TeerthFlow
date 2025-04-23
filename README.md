@@ -86,7 +86,7 @@ npm run dev
 Frontend runs on: http://localhost:5173
 
 ---
-##📡 ESP8266 Firmware
+## 📡 ESP8266 Firmware
 - Program the ESP8266 with the Arduino sketch in firmware/esp8266_crowd_counter.ino
 
 - Update Wi-Fi SSID, Password, and backend IP address in the code
@@ -104,6 +104,3 @@ Frontend runs on: http://localhost:5173
 
 You can customize this logic in app.py.
 
-## ✍️ Contributing
-
-Pull requests are welcome! If you’d like to add new features (e.g., forecast prediction, historical graph), feel free to fork and improve.
