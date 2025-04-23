@@ -64,7 +64,7 @@ python app.py
 Backend will start on: http://localhost:5000
 
 ---
-⚛️ Frontend Setup
+##⚛️ Frontend Setup
 📁 Go to the frontend directory:
 
 ```bash
@@ -84,24 +84,25 @@ npm install
 npm run dev
 ```
 Frontend runs on: http://localhost:5173
+
 ---
+##📡 ESP8266 Firmware
+- Program the ESP8266 with the Arduino sketch in firmware/esp8266_crowd_counter.ino
 
-📡 ESP8266 Firmware
-Program the ESP8266 with the Arduino sketch in firmware/esp8266_crowd_counter.ino
+- Update Wi-Fi SSID, Password, and backend IP address in the code
 
-Update Wi-Fi SSID, Password, and backend IP address in the code
+- IR sensors should be connected to D1 (entry) and D2 (exit)
 
-IR sensors should be connected to D1 (entry) and D2 (exit)
 
-📊 Sample Screenshot
+## 🧠 How Crowd Level is Calculated
 
-🧠 How Crowd Level is Calculated
+| People Count | Crowd Level |
+|--------------|-------------|
+| 0–20         | Low         |
+| 21–40        | Medium      |
+| 41+          | High        |
 
-People Count	Crowd Level
-0–20	Low
-21–40	Medium
-41+	High
 You can customize this logic in app.py.
 
-✍️ Contributing
+##✍️ Contributing
 Pull requests are welcome! If you’d like to add new features (e.g., forecast prediction, historical graph), feel free to fork and improve.
