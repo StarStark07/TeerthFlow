@@ -35,57 +35,56 @@ This system uses:
 
 ---
 
-# 🐍 Backend Setup
-## 📁 Go to the backend directory:
 ## 🐍 Backend Setup
-
 📁 Go to the backend directory:
 
 ```bash
 cd backend
 ````
+---
 
 🛠️ Create a virtual environment (optional):
 
-bash
-Copy
-Edit
+````bash
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
+````
+---
 📦 Install dependencies:
 
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
-▶️ Run the backend:
+```
+---
 
-bash
-Copy
-Edit
+▶️ Run the backend:
+```bash
 python app.py
+````
 Backend will start on: http://localhost:5000
 
+---
 ⚛️ Frontend Setup
 📁 Go to the frontend directory:
 
-bash
-Copy
-Edit
+```bash
 cd frontend
+```
+---
 📦 Install dependencies:
 
-bash
-Copy
-Edit
+```bash
 npm install
+```
+---
+
 ▶️ Start the dev server:
 
-bash
-Copy
-Edit
+```bash
 npm run dev
+```
 Frontend runs on: http://localhost:5173
+---
 
 📡 ESP8266 Firmware
 Program the ESP8266 with the Arduino sketch in firmware/esp8266_crowd_counter.ino
