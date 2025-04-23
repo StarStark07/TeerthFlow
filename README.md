@@ -1,5 +1,5 @@
-# TeerthFlow
-# 🛕 Crowd Level Detection Dashboard for Temples
+# 🛕 TeerthFlow
+## Crowd Level Detection Dashboard for Temples
 
 A real-time crowd monitoring and visualization system using ESP8266-based IR sensors, a Flask backend, and a React frontend. Designed to help pilgrims and administrators monitor people counts and crowd levels in temples.
 
@@ -104,5 +104,6 @@ Frontend runs on: http://localhost:5173
 
 You can customize this logic in app.py.
 
-##✍️ Contributing
+## ✍️ Contributing
+
 Pull requests are welcome! If you’d like to add new features (e.g., forecast prediction, historical graph), feel free to fork and improve.
