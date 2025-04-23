@@ -64,7 +64,7 @@ python app.py
 Backend will start on: http://localhost:5000
 
 ---
-##⚛️ Frontend Setup
+## ⚛️ Frontend Setup
 📁 Go to the frontend directory:
 
 ```bash
